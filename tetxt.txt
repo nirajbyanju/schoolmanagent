@@ -1,0 +1,4 @@
+Admin: admin@admin.com / 123456789@#
+Teacher: teacher@test.com / 123456789@#
+Student: student@test.com / 123456789@#
+Parent: parent@test.com / 123456789@#
