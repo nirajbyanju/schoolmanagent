@@ -62,8 +62,7 @@ use App\Http\Controllers\RegisteredUserController as ControllersRegisteredUserCo
             // Define a localized route group for authenticated users
             Route::group(
                 [
-                    'prefix' => LaravelLocalization::setLocale(),
-                    'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+                    // 'prefix' => LaravelLocalization::setLocale(),
                 ], function(){
 
 
@@ -333,14 +332,9 @@ use App\Http\Controllers\RegisteredUserController as ControllersRegisteredUserCo
 
 
 
-        Route::group(
-            [
-                'prefix' => LaravelLocalization::setLocale(),
-                'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
-            ], function(){
-                // Import Jetstream Features routes
-                require_once(__DIR__.'/jetstreamFeatures.php');
-            });
+
+         require_once(__DIR__.'/jetstreamFeatures.php');
+
 
 
 

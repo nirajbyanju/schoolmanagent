@@ -24,7 +24,6 @@
         "livewire/livewire": "^2.11",
         "maatwebsite/excel": "^3.1",
         "macsidigital/laravel-zoom": "dev-master",
-        "mcamara/laravel-localization": "^1.8",
         "moneyphp/money": "^4.1",
         "owen-it/laravel-auditing": "^13.5",
         "power-components/livewire-powergrid": "^3.7",
